@@ -1,0 +1,31 @@
+<svg width="300" height="400" viewBox="0 0 300 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="400" fill="#E0EAFF"/>
+  
+  <!-- Business Suit Silhouette -->
+  <rect x="90" y="160" width="120" height="200" fill="#0A1A35"/>
+  <path d="M90 160 L150 180 L210 160 L210 360 L90 360 Z" fill="#0A1A35"/>
+  
+  <!-- Shirt Collar -->
+  <path d="M125 160 L150 200 L175 160" stroke="#FFFFFF" stroke-width="3"/>
+  
+  <!-- Head Silhouette -->
+  <circle cx="150" cy="100" r="60" fill="#D0D3D9"/>
+  
+  <!-- Professional attire details -->
+  <rect x="140" y="160" width="20" height="100" fill="#FFFFFF"/>
+  <circle cx="150" cy="180" r="3" fill="#0A1A35"/>
+  <circle cx="150" cy="190" r="3" fill="#0A1A35"/>
+  <circle cx="150" cy="200" r="3" fill="#0A1A35"/>
+  
+  <!-- Subtle Facial Features -->
+  <ellipse cx="130" cy="90" rx="5" ry="5" fill="#0A1A35"/>
+  <ellipse cx="170" cy="90" rx="5" ry="5" fill="#0A1A35"/>
+  <path d="M130 120 Q150 135 170 120" stroke="#0A1A35" stroke-width="2"/>
+  
+  <!-- Professional Hair -->
+  <path d="M90 100 Q90 50 150 40 Q210 50 210 100" fill="#0A1A35"/>
+  
+  <!-- Text Label -->
+  <rect x="75" y="300" width="150" height="30" rx="5" fill="#0040C1"/>
+  <text x="150" y="320" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Joby Joseph, CEO</text>
+</svg> 

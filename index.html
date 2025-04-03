@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire in 22 Hours - AI-Powered Recruitment Platform</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="description" content="Hire22.ai - AI-powered recruitment platform that helps you hire the right candidate in just 22 hours. Save time and resources with our cutting-edge technology.">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="/" class="logo">
+                <img src="https://hire22-jobs.s3.ap-south-1.amazonaws.com/hire22-logo.svg" alt="Hire22.ai Logo">
+            </a>
+            <nav class="main-nav">
+                <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#testimonials">Success Stories</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <!-- <li><a href="/blog" class="nav-link">Blog</a></li> -->
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="login.html" class="nav-link login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="particle-container" id="particles">
+                <!-- Particles will be dynamically added by JavaScript -->
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-heading">Hire the Right Talent in Just 22 Hours</h1>
+                    <p class="hero-subheading">Our AI-powered platform eliminates hiring bottlenecks, reduces time-to-hire by 80%, and connects you with pre-vetted candidates who are ready to start immediately.</p>
+                    <div class="hero-cta">
+                        <a href="#hire-form" class="btn btn-primary">Hire Now</a>
+                        <a href="#demo" class="btn btn-secondary">Book Demo</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-counter" data-target="22" data-suffix=" Hours">22 Hours</span>
+                            <span class="stat-label">Average Time-to-Hire</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-counter" data-target="94" data-suffix="%">98%</span>
+                            <span class="stat-label">Candidate Match Rate</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-counter" data-target="3500" data-suffix="+">1000+</span>
+                            <span class="stat-label">Successful Placements</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <img src="assets/hero-image.svg" alt="AI-Powered Hiring Process" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="trusted-by">
+            <div class="container">
+                <h2 class="section-heading">Trusted By <span class="highlight">Industry Leaders</span></h2>
+                <p class="section-subheading">Join the hundreds of companies accelerating their hiring with Hire22.ai</p>
+                
+                <div class="trust-metrics">
+                    <div class="trust-metric">
+                        <span class="metric-number">500+</span>
+                        <span class="metric-label">Companies</span>
+                    </div>
+                    <div class="trust-metric">
+                        <span class="metric-number">10,000+</span>
+                        <span class="metric-label">Hires Made</span>
+                    </div>
+                    <div class="trust-metric">
+                        <span class="metric-number">99.8%</span>
+                        <span class="metric-label">Satisfaction</span>
+                    </div>
+                </div>
+                
+                <div class="clients-carousel-container">
+                    <div class="client-logos track-one">
+                        <!-- Original remote URLs that might not work -->
+                        <div class="logo-item" data-company="Oracle">
+                            <img src="assets/client-logos/oracle.png" alt="Oracle" 
+                                 onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/320px-Oracle_logo.svg.png';">
+                            <div class="logo-hover">
+                                <p>"Hire22.ai reduced our time-to-hire by 60%"</p>
+                            </div>
+                        </div>
+                        <div class="logo-item" data-company="Cisco">
+                            <img src="assets/client-logos/cisco.png" alt="Cisco" 
+                                 onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/320px-Cisco_logo_blue_2016.svg.png';">
+                            <div class="logo-hover">
+                                <p>"95% candidate match rate with our requirements"</p>
+                            </div>
+                        </div>
+                        <div class="logo-item" data-company="Coolova">
+                            <img src="assets/client-logos/coolova.png" alt="Coolova" 
+                                 onerror="this.onerror=null; this.src='https://placehold.co/200x80/0A1A35/FFFFFF?text=Coolova';">
+                            <div class="logo-hover">
+                                <p>"Helped us build our engineering team from scratch"</p>
+                            </div>
+                        </div>
+                        <div class="logo-item" data-company="Airbnb">
+                            <img src="assets/client-logos/airbnb.png" alt="Airbnb" 
+                                 onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/320px-Airbnb_Logo_B%C3%A9lo.svg.png';">
+                            <div class="logo-hover">
+                                <p>"Consistent high-quality talent acquisition"</p>
+                            </div>
+                        </div>
+                        <div class="logo-item" data-company="Wipro">
+                            <img src="assets/client-logos/wipro.png" alt="Wipro" 
+                                 onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wipro_Primary_Logo_Color_RGB.svg/320px-Wipro_Primary_Logo_Color_RGB.svg.png';">
+                            <div class="logo-hover">
+                                <p>"AI-powered matching transformed our hiring"</p>
+                            </div>
+                        </div>
+                        <div class="logo-item" data-company="VMware">
+                            <img src="assets/client-logos/vmware.png" alt="VMware" 
+                                 onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/320px-Vmware.svg.png';">
+                            <div class="logo-hover">
+                                <p>"Reduced cost-per-hire by 40% year over year"</p>
+                            </div>
+                        </div>
+                        <div class="logo-item" data-company="Gojek">
+                            <img src="assets/client-logos/gojek.png" alt="Gojek" 
+                                 onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gojek_logo_2019.svg/320px-Gojek_logo_2019.svg.png';">
+                            <div class="logo-hover">
+                                <p>"Scaled our tech team efficiently during hypergrowth"</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="client-logos track-two">
+                        <!-- Duplicate for smooth infinite scrolling -->
+                        <div class="logo-item" data-company="Oracle">
+                            <img src="assets/client-logos/oracle.png" alt="Oracle" 
+                                 onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/320px-Oracle_logo.svg.png';">
+                            <div class="logo-hover">
+                                <p>"Hire22.ai reduced our time-to-hire by 60%"</p>
+                            </div>
+                        </div>
+                        <div class="logo-item" data-company="Cisco">
+                            <img src="assets/client-logos/cisco.png" alt="Cisco" 
+                                 onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/320px-Cisco_logo_blue_2016.svg.png';">
+                            <div class="logo-hover">
+                                <p>"95% candidate match rate with our requirements"</p>
+                            </div>
+                        </div>
+                        <div class="logo-item" data-company="Coolova">
+                            <img src="assets/client-logos/coolova.png" alt="Coolova" 
+                                 onerror="this.onerror=null; this.src='https://placehold.co/200x80/0A1A35/FFFFFF?text=Coolova';">
+                            <div class="logo-hover">
+                                <p>"Helped us build our engineering team from scratch"</p>
+                            </div>
+                        </div>
+                        <div class="logo-item" data-company="Airbnb">
+                            <img src="assets/client-logos/airbnb.png" alt="Airbnb" 
+                                 onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/320px-Airbnb_Logo_B%C3%A9lo.svg.png';">
+                            <div class="logo-hover">
+                                <p>"Consistent high-quality talent acquisition"</p>
+                            </div>
+                        </div>
+                        <div class="logo-item" data-company="Wipro">
+                            <img src="assets/client-logos/wipro.png" alt="Wipro" 
+                                 onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wipro_Primary_Logo_Color_RGB.svg/320px-Wipro_Primary_Logo_Color_RGB.svg.png';">
+                            <div class="logo-hover">
+                                <p>"AI-powered matching transformed our hiring"</p>
+                            </div>
+                        </div>
+                        <div class="logo-item" data-company="VMware">
+                            <img src="assets/client-logos/vmware.png" alt="VMware" 
+                                 onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/320px-Vmware.svg.png';">
+                            <div class="logo-hover">
+                                <p>"Reduced cost-per-hire by 40% year over year"</p>
+                            </div>
+                        </div>
+                        <div class="logo-item" data-company="Gojek">
+                            <img src="assets/client-logos/gojek.png" alt="Gojek" 
+                                 onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gojek_logo_2019.svg/320px-Gojek_logo_2019.svg.png';">
+                            <div class="logo-hover">
+                                <p>"Scaled our tech team efficiently during hypergrowth"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="trusted-by-cta">
+                    <a href="#demo" class="btn btn-secondary">Join These Companies</a>
+                    <p>See our <a href="#case-studies">case studies</a> for detailed success stories</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="shapes-background">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+            <div class="container">
+                <h2 class="section-heading">Why Choose Hire22.ai?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3 class="feature-title">Rapid Hiring</h3>
+                        <p class="feature-description">From job posting to offer letter in just 22 hours. Our AI-powered platform works around the clock to find your perfect match.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3 class="feature-title">AI-Powered Matching</h3>
+                        <p class="feature-description">Our proprietary algorithm analyzes over 30 data points to find candidates that perfectly match your requirements.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3 class="feature-title">Pre-Vetted Talent</h3>
+                        <p class="feature-description">Every candidate is thoroughly screened. Technical skills, soft skills, and culture fit - we verify it all.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="feature-title">Data-Driven Insights</h3>
+                        <p class="feature-description">Make informed decisions with comprehensive analytics on hiring efficiency, candidate quality, and market trends.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3 class="feature-title">Global Talent Pool</h3>
+                        <p class="feature-description">Access top candidates from around the world. Our platform breaks down geographical barriers to find the best talent.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <h3 class="feature-title">Cost-Effective</h3>
+                        <p class="feature-description">Reduce hiring costs by up to 60%. Pay only for successful placements with our performance-based pricing model.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works">
+            <div class="container">
+                <h2 class="section-heading">How It Works</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Submit Your Requirements</h3>
+                            <p class="step-description">Fill out our detailed job specification form. The more information you provide, the better our AI can match candidates.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3 class="step-title">AI-Powered Matching</h3>
+                            <p class="step-description">Our algorithm processes your requirements and instantly matches them with our database of pre-vetted candidates.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Review Top Candidates</h3>
+                            <p class="step-description">Within hours, you'll receive a shortlist of the top 3-5 candidates that match your criteria, complete with detailed profiles.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Interview and Select</h3>
+                            <p class="step-description">Schedule interviews with your preferred candidates through our platform. Our AI provides interview questions tailored to your needs.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Hire in 22 Hours</h3>
+                            <p class="step-description">Make your decision and extend an offer. Our platform handles all the paperwork and onboarding processes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="shapes-background">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+            <div class="container">
+                <h2 class="section-heading">Success Stories</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"We had been struggling to fill a critical developer position for weeks. With Hire22.ai, we found the perfect candidate in just one day. The quality of candidates and speed of hiring is unmatched."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="assets/testimonial1.jpg" alt="John Smith" class="author-image">
+                            <div class="author-info">
+                                <h4 class="author-name">John Smith</h4>
+                                <p class="author-position">CTO, TechStart Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"As a fast-growing startup, we needed to scale our team quickly without compromising on quality. Hire22.ai delivered top-tier talent consistently, helping us grow our engineering team from 5 to 25 in just three months."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="assets/testimonial2.jpg" alt="Sarah Johnson" class="author-image">
+                            <div class="author-info">
+                                <h4 class="author-name">Sarah Johnson</h4>
+                                <p class="author-position">CEO, InnovateNow</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"The AI-powered matching is incredibly accurate. Every candidate we received matched our requirements perfectly, both in skills and culture fit. This has reduced our hiring costs by over 50% while improving retention."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="assets/testimonial3.jpg" alt="David Chen" class="author-image">
+                            <div class="author-info">
+                                <h4 class="author-name">David Chen</h4>
+                                <p class="author-position">HR Director, Global Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing">
+            <div class="shapes-background">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+            <div class="container">
+                <h2 class="section-heading">Simple, Transparent Pricing</h2>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">Starter</h3>
+                            <p class="pricing-price">$999<span>/hire</span></p>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li>Up to 3 positions per month</li>
+                                <li>22-hour hiring guarantee</li>
+                                <li>Pre-vetted candidates</li>
+                                <li>Basic analytics dashboard</li>
+                                <li>Email support</li>
+                            </ul>
+                        </div>
+                        <a href="#hire-form" class="btn btn-primary">Get Started</a>
+                    </div>
+                    <div class="pricing-card featured">
+                        <div class="pricing-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">Business</h3>
+                            <p class="pricing-price">$2,499<span>/month</span></p>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li>Up to 10 positions per month</li>
+                                <li>22-hour hiring guarantee</li>
+                                <li>Pre-vetted candidates</li>
+                                <li>Advanced analytics dashboard</li>
+                                <li>Dedicated account manager</li>
+                                <li>Custom onboarding assistance</li>
+                                <li>Priority support</li>
+                            </ul>
+                        </div>
+                        <a href="#hire-form" class="btn btn-primary">Get Started</a>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">Enterprise</h3>
+                            <p class="pricing-price">Custom</p>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li>Unlimited positions</li>
+                                <li>22-hour hiring guarantee</li>
+                                <li>Pre-vetted candidates</li>
+                                <li>Enterprise-grade analytics</li>
+                                <li>Custom API integration</li>
+                                <li>White-label solutions</li>
+                                <li>Dedicated success team</li>
+                                <li>24/7 premium support</li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="btn btn-primary">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="hire-form" class="hire-form">
+            <div class="container">
+                <h2 class="section-heading">Hire Your Perfect Candidate in 22 Hours</h2>
+                <form id="hiringForm" class="multi-step-form">
+                    <!-- Step 1: Basic Information -->
+                    <div class="form-step" data-step="1">
+                        <h3 class="form-step-title">Job Details</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="jobTitle">Job Title*</label>
+                                <input type="text" id="jobTitle" name="jobTitle" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="department">Department*</label>
+                                <select id="department" name="department" required>
+                                    <option value="">Select Department</option>
+                                    <option value="engineering">Engineering</option>
+                                    <option value="product">Product</option>
+                                    <option value="design">Design</option>
+                                    <option value="marketing">Marketing</option>
+                                    <option value="sales">Sales</option>
+                                    <option value="finance">Finance</option>
+                                    <option value="hr">Human Resources</option>
+                                    <option value="operations">Operations</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="location">Location*</label>
+                                <input type="text" id="location" name="location" required placeholder="City, Country or Remote">
+                            </div>
+                            <div class="form-group">
+                                <label for="workType">Work Type*</label>
+                                <select id="workType" name="workType" required>
+                                    <option value="">Select Work Type</option>
+                                    <option value="full-time">Full-time</option>
+                                    <option value="part-time">Part-time</option>
+                                    <option value="contract">Contract</option>
+                                    <option value="freelance">Freelance</option>
+                                    <option value="internship">Internship</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group full-width">
+                                <label for="jobDescription">Job Description*</label>
+                                <textarea id="jobDescription" name="jobDescription" rows="4" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-buttons">
+                            <button type="button" class="btn btn-primary next-step">Continue</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Requirements -->
+                    <div class="form-step" data-step="2">
+                        <h3 class="form-step-title">Candidate Requirements</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="experience">Years of Experience*</label>
+                                <select id="experience" name="experience" required>
+                                    <option value="">Select Range</option>
+                                    <option value="0-1">0-1 years</option>
+                                    <option value="1-3">1-3 years</option>
+                                    <option value="3-5">3-5 years</option>
+                                    <option value="5-7">5-7 years</option>
+                                    <option value="7-10">7-10 years</option>
+                                    <option value="10+">10+ years</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="education">Minimum Education</label>
+                                <select id="education" name="education">
+                                    <option value="">Select Education Level</option>
+                                    <option value="high-school">High School</option>
+                                    <option value="associate">Associate's Degree</option>
+                                    <option value="bachelor">Bachelor's Degree</option>
+                                    <option value="master">Master's Degree</option>
+                                    <option value="phd">Ph.D</option>
+                                    <option value="none">No Specific Requirement</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group full-width">
+                                <label for="skills">Required Skills* (separate with commas)</label>
+                                <input type="text" id="skills" name="skills" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group full-width">
+                                <label for="additionalRequirements">Additional Requirements</label>
+                                <textarea id="additionalRequirements" name="additionalRequirements" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-buttons">
+                            <button type="button" class="btn btn-secondary prev-step">Back</button>
+                            <button type="button" class="btn btn-primary next-step">Continue</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Company Information -->
+                    <div class="form-step" data-step="3">
+                        <h3 class="form-step-title">Company Information</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="companyName">Company Name*</label>
+                                <input type="text" id="companyName" name="companyName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="companySize">Company Size*</label>
+                                <select id="companySize" name="companySize" required>
+                                    <option value="">Select Size</option>
+                                    <option value="1-10">1-10 employees</option>
+                                    <option value="11-50">11-50 employees</option>
+                                    <option value="51-200">51-200 employees</option>
+                                    <option value="201-500">201-500 employees</option>
+                                    <option value="501-1000">501-1000 employees</option>
+                                    <option value="1001+">1001+ employees</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="industry">Industry*</label>
+                                <select id="industry" name="industry" required>
+                                    <option value="">Select Industry</option>
+                                    <option value="technology">Technology</option>
+                                    <option value="healthcare">Healthcare</option>
+                                    <option value="finance">Finance</option>
+                                    <option value="education">Education</option>
+                                    <option value="retail">Retail</option>
+                                    <option value="manufacturing">Manufacturing</option>
+                                    <option value="media">Media & Entertainment</option>
+                                    <option value="services">Professional Services</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="website">Company Website</label>
+                                <input type="url" id="website" name="website">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group full-width">
+                                <label for="companyDescription">Company Description</label>
+                                <textarea id="companyDescription" name="companyDescription" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-buttons">
+                            <button type="button" class="btn btn-secondary prev-step">Back</button>
+                            <button type="button" class="btn btn-primary next-step">Continue</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 4: Contact Information -->
+                    <div class="form-step" data-step="4">
+                        <h3 class="form-step-title">Contact Information</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name*</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name*</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address*</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number*</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="position">Your Position*</label>
+                                <input type="text" id="position" name="position" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="hearAbout">How did you hear about us?</label>
+                                <select id="hearAbout" name="hearAbout">
+                                    <option value="">Select Option</option>
+                                    <option value="search">Search Engine</option>
+                                    <option value="social">Social Media</option>
+                                    <option value="referral">Referral</option>
+                                    <option value="news">News Article</option>
+                                    <option value="event">Event</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group checkbox-group">
+                                <input type="checkbox" id="terms" name="terms" required>
+                                <label for="terms">I agree to the <a href="/terms" target="_blank">Terms of Service</a> and <a href="/privacy" target="_blank">Privacy Policy</a>*</label>
+                            </div>
+                        </div>
+                        <div class="form-buttons">
+                            <button type="button" class="btn btn-secondary prev-step">Back</button>
+                            <button type="submit" class="btn btn-primary">Submit Request</button>
+                        </div>
+                    </div>
+
+                    <!-- Success Message (Hidden by default) -->
+                    <div class="form-success" style="display: none;">
+                        <div class="success-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3>Request Submitted Successfully!</h3>
+                        <p>We've received your hiring request and our AI is already matching candidates. You'll receive your first shortlist within 22 hours.</p>
+                        <p>A confirmation email has been sent to your inbox with next steps.</p>
+                        <a href="#" class="btn btn-primary new-request">Submit Another Request</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <h2 class="section-heading">Get in Touch</h2>
+                    <p class="contact-description">Have questions or need a custom solution? Our team is here to help.</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h3>Email Us</h3>
+                                <p><a href="mailto:hello@hire22.ai">support@hire22.ai</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h3>Call Us</h3>
+                                <p><a href="tel:+18005551234">+91 8884533345</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-calendar"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h3>Schedule a Demo</h3>
+                                <p><a href="#demo" class="demo-link">Book a time slot</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://twitter.com/hire22ai" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/company/hire22ai" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/hire22ai" target="_blank" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/hire22ai" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://hire22-jobs.s3.ap-south-1.amazonaws.com/hire22-logo.svg" alt="Hire22.ai Logo">
+                    <p class="tagline">AI-Powered Hiring in 22 Hours</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="/about">About Us</a></li>
+                            <li><a href="/careers">Careers</a></li>
+                            <li><a href="/blog">Blog</a></li>
+                            <li><a href="/press">Press</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Product</h3>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="/integrations">Integrations</a></li>
+                            <li><a href="/roadmap">Roadmap</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="/help">Help Center</a></li>
+                            <li><a href="/guides">Guides</a></li>
+                            <li><a href="/api">API Documentation</a></li>
+                            <li><a href="/community">Community</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Legal</h3>
+                        <ul>
+                            <li><a href="/terms">Terms of Service</a></li>
+                            <li><a href="/privacy">Privacy Policy</a></li>
+                            <li><a href="/security">Security</a></li>
+                            <li><a href="/compliance">Compliance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2023 Hire22.ai. All rights reserved.</p>
+                <div class="footer-language">
+                    <select id="language-selector">
+                        <option value="en">English</option>
+                        <option value="es">Español</option>
+                        <option value="fr">Français</option>
+                        <option value="de">Deutsch</option>
+                        <option value="pt">Português</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookies Consent -->
+    <div class="cookie-consent">
+        <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies. <a href="/privacy">More info</a></p>
+        <button class="btn btn-primary accept-cookies">Accept</button>
+    </div>
+
+    <!-- Demo Modal (Hidden by default) -->
+    <div id="demo" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Schedule a Demo</h2>
+            <p>See how Hire22.ai can transform your hiring process with a personalized demo.</p>
+            <form id="demoForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="demoName">Full Name*</label>
+                        <input type="text" id="demoName" name="demoName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="demoEmail">Email Address*</label>
+                        <input type="email" id="demoEmail" name="demoEmail" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="demoCompany">Company Name*</label>
+                        <input type="text" id="demoCompany" name="demoCompany" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="demoPhone">Phone Number*</label>
+                        <input type="tel" id="demoPhone" name="demoPhone" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group full-width">
+                        <label for="demoDate">Preferred Date and Time</label>
+                        <input type="datetime-local" id="demoDate" name="demoDate">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group full-width">
+                        <label for="demoMessage">Questions or Comments</label>
+                        <textarea id="demoMessage" name="demoMessage" rows="3"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Book My Demo</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/form-validation.js"></script>
+    <script src="js/hero-animation.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if user is logged in
+            const isAuthenticated = localStorage.getItem('hire22_authenticated') === 'true';
+            const userName = localStorage.getItem('hire22_user_name');
+            const userEmail = localStorage.getItem('hire22_user_email');
+            
+            // Update navigation based on authentication state
+            updateNavigation(isAuthenticated, userName);
+            
+            // Handle theme toggle
+            const themeToggle = document.querySelector('.theme-toggle');
+            if (themeToggle) {
+                const htmlElement = document.documentElement;
+                const themeIcon = themeToggle.querySelector('i');
+                
+                // Check for saved theme preference or use device preference
+                const savedTheme = localStorage.getItem('theme') || 
+                    (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                
+                // Apply saved theme
+                htmlElement.setAttribute('data-theme', savedTheme);
+                updateThemeIcon(savedTheme);
+                
+                // Toggle theme on click
+                themeToggle.addEventListener('click', function() {
+                    themeToggle.classList.add('switching');
+                    
+                    // Toggle theme
+                    const currentTheme = htmlElement.getAttribute('data-theme');
+                    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+                    
+                    // Apply new theme with animation
+                    setTimeout(() => {
+                        htmlElement.setAttribute('data-theme', newTheme);
+                        localStorage.setItem('theme', newTheme);
+                        updateThemeIcon(newTheme);
+                        
+                        // Remove animation class after animation completes
+                        setTimeout(() => {
+                            themeToggle.classList.remove('switching');
+                        }, 500);
+                    }, 100);
+                });
+                
+                function updateThemeIcon(theme) {
+                    themeIcon.className = theme === 'light' ? 'fas fa-sun' : 'fas fa-moon';
+                }
+            }
+            
+            // Function to update navigation based on authentication state
+            function updateNavigation(isAuthenticated, userName) {
+                const loginLinks = document.querySelectorAll('.nav-link.login');
+                const signupLinks = document.querySelectorAll('a[href="signup.html"]');
+                
+                if (isAuthenticated) {
+                    // Update login links to show user name or Account
+                    loginLinks.forEach(link => {
+                        link.textContent = userName || 'My Account';
+                        link.href = '#my-account';
+                        
+                        // Add logout functionality
+                        link.addEventListener('click', function(e) {
+                            if (link.getAttribute('href') === '#my-account') {
+                                e.preventDefault();
+                                
+                                // Show a mini dropdown with logout option
+                                const dropdown = document.createElement('div');
+                                dropdown.className = 'account-dropdown';
+                                dropdown.innerHTML = `
+                                    <ul>
+                                        <li class="dropdown-username">${userName || userEmail || 'My Account'}</li>
+                                        <li><a href="#dashboard">Dashboard</a></li>
+                                        <li><a href="#settings">Settings</a></li>
+                                        <li><a href="#" id="logout-link">Logout</a></li>
+                                    </ul>
+                                `;
+                                
+                                // Position the dropdown
+                                dropdown.style.position = 'absolute';
+                                dropdown.style.top = (link.offsetTop + link.offsetHeight) + 'px';
+                                dropdown.style.right = '20px';
+                                dropdown.style.backgroundColor = 'var(--card-bg)';
+                                dropdown.style.boxShadow = 'var(--shadow-md)';
+                                dropdown.style.borderRadius = 'var(--border-radius)';
+                                dropdown.style.zIndex = '1000';
+                                dropdown.style.minWidth = '200px';
+                                
+                                document.body.appendChild(dropdown);
+                                
+                                // Handle logout
+                                document.getElementById('logout-link').addEventListener('click', function(e) {
+                                    e.preventDefault();
+                                    
+                                    // Clear authentication data
+                                    localStorage.removeItem('hire22_authenticated');
+                                    localStorage.removeItem('hire22_user_name');
+                                    localStorage.removeItem('hire22_user_email');
+                                    localStorage.removeItem('hire22_user_role');
+                                    
+                                    // Reload page to reflect logged out state
+                                    window.location.reload();
+                                });
+                                
+                                // Close dropdown when clicking outside
+                                document.addEventListener('click', function closeDropdown(e) {
+                                    if (!dropdown.contains(e.target) && e.target !== link) {
+                                        dropdown.remove();
+                                        document.removeEventListener('click', closeDropdown);
+                                    }
+                                });
+                            }
+                        });
+                    });
+                    
+                    // Change signup links to "Dashboard" links
+                    signupLinks.forEach(link => {
+                        link.textContent = 'Dashboard';
+                        link.href = '#dashboard';
+                    });
+                    
+                    // Add a welcome message if we're on the home page
+                    const heroSection = document.querySelector('.hero');
+                    if (heroSection) {
+                        const welcomeBanner = document.createElement('div');
+                        welcomeBanner.className = 'welcome-banner';
+                        welcomeBanner.style.backgroundColor = 'var(--primary-color)';
+                        welcomeBanner.style.color = 'white';
+                        welcomeBanner.style.padding = '10px 0';
+                        welcomeBanner.style.textAlign = 'center';
+                        welcomeBanner.style.marginBottom = '20px';
+                        welcomeBanner.style.borderRadius = 'var(--border-radius)';
+                        welcomeBanner.style.animation = 'fadeIn 0.5s ease-in-out';
+                        
+                        welcomeBanner.innerHTML = `
+                            <div class="container">
+                                <p>Welcome back, <strong>${userName || userEmail || 'valued user'}</strong>! 
+                                <a href="#dashboard" style="color: white; text-decoration: underline;">View your dashboard</a> or 
+                                <a href="#postjob" style="color: white; text-decoration: underline;">post a new job</a></p>
+                            </div>
+                        `;
+                        
+                        heroSection.insertBefore(welcomeBanner, heroSection.firstChild);
+                    }
+                }
+            }
+            
+            // Handle scroll animations
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+            
+            document.querySelectorAll('.animate-on-scroll').forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
+</body>
+</html> 

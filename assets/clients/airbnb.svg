@@ -1,0 +1,7 @@
+<svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="60" fill="white"/>
+  <path d="M60 15 C55 15 50 21 50 28 C50 35 55 45 60 45 C65 45 70 35 70 28 C70 21 65 15 60 15 Z" fill="#FF5A5F"/>
+  <path d="M80 35 C75 35 70 41 70 48 C70 55 75 58 80 58 C85 58 90 55 90 48 C90 41 85 35 80 35 Z" fill="#FF5A5F" opacity="0.5"/>
+  <path d="M40 35 C35 35 30 41 30 48 C30 55 35 58 40 58 C45 58 50 55 50 48 C50 41 45 35 40 35 Z" fill="#FF5A5F" opacity="0.5"/>
+  <text x="60" y="55" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FF5A5F" text-anchor="middle">airbnb</text>
+</svg> 

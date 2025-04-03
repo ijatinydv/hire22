@@ -1,0 +1,7 @@
+<svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="60" fill="white"/>
+  <path d="M60 15 L68 23 L68 37 L60 45 L52 37 L52 23 L60 15 Z" fill="#049FD9"/>
+  <path d="M30 25 L38 33 L38 37 L30 45 L22 37 L22 33 L30 25 Z" fill="#049FD9"/>
+  <path d="M90 25 L98 33 L98 37 L90 45 L82 37 L82 33 L90 25 Z" fill="#049FD9"/>
+  <text x="60" y="55" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#049FD9" text-anchor="middle">CISCO</text>
+</svg> 

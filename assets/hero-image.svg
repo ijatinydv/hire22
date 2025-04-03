@@ -1,0 +1,179 @@
+<svg width="500" height="400" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <circle cx="250" cy="200" r="150" fill="#F0F5FF" opacity="0.5"/>
+  <circle cx="250" cy="200" r="100" fill="#E0EAFF" opacity="0.7"/>
+  
+  <!-- Abstract Digital Lines -->
+  <path d="M50 100 L450 100" stroke="#0040C1" stroke-width="1" stroke-dasharray="5,5"/>
+  <path d="M50 150 L450 150" stroke="#0040C1" stroke-width="1" stroke-dasharray="5,5"/>
+  <path d="M50 200 L450 200" stroke="#0040C1" stroke-width="1" stroke-dasharray="5,5"/>
+  <path d="M50 250 L450 250" stroke="#0040C1" stroke-width="1" stroke-dasharray="5,5"/>
+  <path d="M50 300 L450 300" stroke="#0040C1" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- AI Brain Visualization -->
+  <circle cx="250" cy="200" r="60" fill="#0A1A35"/>
+  <path d="M220 180 L240 160 L260 180 L280 160" stroke="#3B7DFF" stroke-width="2"/>
+  <path d="M220 200 L240 180 L260 200 L280 180" stroke="#3B7DFF" stroke-width="2"/>
+  <path d="M220 220 L240 200 L260 220 L280 200" stroke="#3B7DFF" stroke-width="2"/>
+  <circle cx="220" cy="180" r="3" fill="#FF5722" class="neuron" data-id="n1"/>
+  <circle cx="240" cy="160" r="3" fill="#FF5722" class="neuron" data-id="n2"/>
+  <circle cx="260" cy="180" r="3" fill="#FF5722" class="neuron" data-id="n3"/>
+  <circle cx="280" cy="160" r="3" fill="#FF5722" class="neuron" data-id="n4"/>
+  <circle cx="220" cy="200" r="3" fill="#FF5722" class="neuron" data-id="n5"/>
+  <circle cx="240" cy="180" r="3" fill="#FF5722" class="neuron" data-id="n6"/>
+  <circle cx="260" cy="200" r="3" fill="#FF5722" class="neuron" data-id="n7"/>
+  <circle cx="280" cy="180" r="3" fill="#FF5722" class="neuron" data-id="n8"/>
+  <circle cx="220" cy="220" r="3" fill="#FF5722" class="neuron" data-id="n9"/>
+  <circle cx="240" cy="200" r="3" fill="#FF5722" class="neuron" data-id="n10"/>
+  <circle cx="260" cy="220" r="3" fill="#FF5722" class="neuron" data-id="n11"/>
+  <circle cx="280" cy="200" r="3" fill="#FF5722" class="neuron" data-id="n12"/>
+  
+  <!-- Neural Connections -->
+  <path d="M220 180 L240 160" stroke="#3B7DFF" stroke-width="1" class="connection" data-source="n1" data-target="n2"/>
+  <path d="M240 160 L260 180" stroke="#3B7DFF" stroke-width="1" class="connection" data-source="n2" data-target="n3"/>
+  <path d="M260 180 L280 160" stroke="#3B7DFF" stroke-width="1" class="connection" data-source="n3" data-target="n4"/>
+  <path d="M220 180 L220 200" stroke="#3B7DFF" stroke-width="1" class="connection" data-source="n1" data-target="n5"/>
+  <path d="M240 160 L240 180" stroke="#3B7DFF" stroke-width="1" class="connection" data-source="n2" data-target="n6"/>
+  <path d="M260 180 L260 200" stroke="#3B7DFF" stroke-width="1" class="connection" data-source="n3" data-target="n7"/>
+  <path d="M280 160 L280 180" stroke="#3B7DFF" stroke-width="1" class="connection" data-source="n4" data-target="n8"/>
+  <path d="M220 200 L220 220" stroke="#3B7DFF" stroke-width="1" class="connection" data-source="n5" data-target="n9"/>
+  <path d="M240 180 L240 200" stroke="#3B7DFF" stroke-width="1" class="connection" data-source="n6" data-target="n10"/>
+  <path d="M260 200 L260 220" stroke="#3B7DFF" stroke-width="1" class="connection" data-source="n7" data-target="n11"/>
+  <path d="M280 180 L280 200" stroke="#3B7DFF" stroke-width="1" class="connection" data-source="n8" data-target="n12"/>
+  <path d="M220 200 L240 180" stroke="#3B7DFF" stroke-width="1" class="connection" data-source="n5" data-target="n6"/>
+  <path d="M240 180 L260 200" stroke="#3B7DFF" stroke-width="1" class="connection" data-source="n6" data-target="n7"/>
+  <path d="M260 200 L280 180" stroke="#3B7DFF" stroke-width="1" class="connection" data-source="n7" data-target="n8"/>
+  <path d="M220 220 L240 200" stroke="#3B7DFF" stroke-width="1" class="connection" data-source="n9" data-target="n10"/>
+  <path d="M240 200 L260 220" stroke="#3B7DFF" stroke-width="1" class="connection" data-source="n10" data-target="n11"/>
+  <path d="M260 220 L280 200" stroke="#3B7DFF" stroke-width="1" class="connection" data-source="n11" data-target="n12"/>
+  
+  <!-- Resume Icons around the brain -->
+  <!-- Resume 1 -->
+  <rect x="100" y="150" width="40" height="50" rx="5" fill="white" stroke="#3B7DFF" stroke-width="2"/>
+  <line x1="110" y1="165" x2="130" y2="165" stroke="#3B7DFF" stroke-width="2"/>
+  <line x1="110" y1="175" x2="130" y2="175" stroke="#3B7DFF" stroke-width="2"/>
+  <line x1="110" y1="185" x2="130" y2="185" stroke="#3B7DFF" stroke-width="2"/>
+  
+  <!-- Resume 2 -->
+  <rect x="360" y="150" width="40" height="50" rx="5" fill="white" stroke="#3B7DFF" stroke-width="2"/>
+  <line x1="370" y1="165" x2="390" y2="165" stroke="#3B7DFF" stroke-width="2"/>
+  <line x1="370" y1="175" x2="390" y2="175" stroke="#3B7DFF" stroke-width="2"/>
+  <line x1="370" y1="185" x2="390" y2="185" stroke="#3B7DFF" stroke-width="2"/>
+  
+  <!-- Resume 3 -->
+  <rect x="170" y="80" width="40" height="50" rx="5" fill="white" stroke="#3B7DFF" stroke-width="2"/>
+  <line x1="180" y1="95" x2="200" y2="95" stroke="#3B7DFF" stroke-width="2"/>
+  <line x1="180" y1="105" x2="200" y2="105" stroke="#3B7DFF" stroke-width="2"/>
+  <line x1="180" y1="115" x2="200" y2="115" stroke="#3B7DFF" stroke-width="2"/>
+  
+  <!-- Resume 4 -->
+  <rect x="290" y="80" width="40" height="50" rx="5" fill="white" stroke="#3B7DFF" stroke-width="2"/>
+  <line x1="300" y1="95" x2="320" y2="95" stroke="#3B7DFF" stroke-width="2"/>
+  <line x1="300" y1="105" x2="320" y2="105" stroke="#3B7DFF" stroke-width="2"/>
+  <line x1="300" y1="115" x2="320" y2="115" stroke="#3B7DFF" stroke-width="2"/>
+  
+  <!-- Resume 5 -->
+  <rect x="230" y="300" width="40" height="50" rx="5" fill="white" stroke="#3B7DFF" stroke-width="2"/>
+  <line x1="240" y1="315" x2="260" y2="315" stroke="#3B7DFF" stroke-width="2"/>
+  <line x1="240" y1="325" x2="260" y2="325" stroke="#3B7DFF" stroke-width="2"/>
+  <line x1="240" y1="335" x2="260" y2="335" stroke="#3B7DFF" stroke-width="2"/>
+  
+  <!-- Person Silhouette 1 (Left) -->
+  <circle cx="140" cy="240" r="20" fill="#0040C1"/>
+  <path d="M120 290 C120 270 160 270 160 290" fill="#0040C1"/>
+  
+  <!-- Person Silhouette 2 (Right) -->
+  <circle cx="360" cy="240" r="20" fill="#0040C1"/>
+  <path d="M340 290 C340 270 380 270 380 290" fill="#0040C1"/>
+  
+  <!-- Connecting Lines -->
+  <path d="M160 240 L220 200" stroke="#3B7DFF" stroke-width="2" stroke-dasharray="5,3" class="connection" data-source="person1" data-target="n5"/>
+  <path d="M340 240 L280 200" stroke="#3B7DFF" stroke-width="2" stroke-dasharray="5,3" class="connection" data-source="person2" data-target="n12"/>
+  <path d="M190 105 L240 160" stroke="#3B7DFF" stroke-width="2" stroke-dasharray="5,3" class="connection" data-source="resume3" data-target="n2"/>
+  <path d="M310 105 L260 180" stroke="#3B7DFF" stroke-width="2" stroke-dasharray="5,3" class="connection" data-source="resume4" data-target="n3"/>
+  <path d="M120 170 L220 180" stroke="#3B7DFF" stroke-width="2" stroke-dasharray="5,3" class="connection" data-source="resume1" data-target="n1"/>
+  <path d="M380 170 L280 180" stroke="#3B7DFF" stroke-width="2" stroke-dasharray="5,3" class="connection" data-source="resume2" data-target="n8"/>
+  <path d="M250 300 L250 240" stroke="#3B7DFF" stroke-width="2" stroke-dasharray="5,3" class="connection" data-source="resume5" data-target="brain"/>
+  
+  <!-- Check Mark for Selected Candidate -->
+  <circle cx="360" cy="240" r="30" fill="#FF5722" opacity="0.3" class="pulse-circle"/>
+  <path d="M345 240 L355 250 L375 230" stroke="#FF5722" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="check-mark"/>
+  
+  <!-- Timer Icon (22 Hours) -->
+  <circle cx="140" cy="240" r="30" fill="#0A1A35" opacity="0.1"/>
+  <circle cx="140" cy="240" r="25" fill="none" stroke="#0A1A35" stroke-width="2" class="timer-circle"/>
+  <line x1="140" y1="240" x2="140" y2="225" stroke="#0A1A35" stroke-width="2" class="timer-hand hour-hand"/>
+  <line x1="140" y1="240" x2="150" y2="250" stroke="#0A1A35" stroke-width="2" class="timer-hand minute-hand"/>
+  <text x="132" y="245" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1A35" class="timer-text">22</text>
+  
+  <!-- AI Text Around Brain -->
+  <text x="250" y="130" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FF5722" text-anchor="middle" class="floating">AI POWERED</text>
+  <text x="250" y="280" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0040C1" text-anchor="middle" class="floating">HIRING</text>
+  
+  <style>
+    .neuron {
+      transition: all 0.3s ease;
+    }
+    
+    .neuron.active {
+      r: 5;
+      fill: #FF5722;
+      filter: drop-shadow(0 0 5px rgba(255, 87, 34, 0.7));
+    }
+    
+    .connection {
+      transition: all 0.3s ease;
+    }
+    
+    .connection.active {
+      stroke: #FF5722;
+      stroke-width: 3;
+    }
+    
+    .pulse-circle {
+      animation: pulse 2s infinite;
+    }
+    
+    @keyframes pulse {
+      0% {
+        opacity: 0.3;
+        r: 30;
+      }
+      50% {
+        opacity: 0.5;
+        r: 33;
+      }
+      100% {
+        opacity: 0.3;
+        r: 30;
+      }
+    }
+    
+    .timer-hand {
+      transform-origin: 140px 240px;
+      animation: rotate 10s linear infinite;
+    }
+    
+    .hour-hand {
+      animation-duration: 60s;
+    }
+    
+    .minute-hand {
+      animation-duration: 10s;
+    }
+    
+    @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    
+    .floating {
+      animation: float 3s ease-in-out infinite;
+    }
+    
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-5px); }
+    }
+  </style>
+</svg> 
