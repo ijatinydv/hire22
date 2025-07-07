@@ -27,7 +27,6 @@ Hire22.ai is an innovative hiring platform that uses artificial intelligence to 
 
 ## Technologies Used
 - **Frontend**: HTML5, CSS3, JavaScript (ES6+)
-- **UI Framework**: Custom CSS with Flexbox and Grid
 - **Icons**: Font Awesome
 - **Animations**: CSS animations and JavaScript transitions
 - **Form Validation**: Custom form validation with real-time feedback
